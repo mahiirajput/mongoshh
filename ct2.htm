@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        /* Define color classes for cells */
+        .class1 {
+            background-color: #ffcccb; /* Light Red */
+        }
+        .class2 {
+            background-color: #a7e9af; /* Light Green */
+        }
+        .class3 {
+            background-color: #a0c4ff; /* Light Blue */
+        }
+        .class4 {
+            background-color: #fdd3c1; /* Peach */
+        }
+        /* Basic styling for the table */
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        th {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Class Time Table</h1>
+    <table>
+        <tr>
+            <th>Day/Time</th>
+            <th class="class1">8:00 AM - 9:30 AM</th>
+            <th class="class2">9:45 AM - 11:15 AM</th>
+            <th class="class3">11:30 AM - 1:00 PM</th>
+            <th class="class4">2:00 PM - 3:30 PM</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td class="class2">Math</td>
+            <td class="class3">Science</td>
+            <td class="class1">History</td>
+            <td class="class4">English</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td class="class1">English</td>
+            <td class="class4">Physics</td>
+            <td class="class2">Math</td>
+            <td class="class3">Chemistry</td>
+        </tr>
+        <!-- Add more rows for the remaining days and classes -->
+    </table>
+</body>
+</html>

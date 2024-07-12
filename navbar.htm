@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My CSS website</title>
+        <!-- <link ref = "stylesheet" href = "CSS\Nav.css"> -->
+        <link rel="stylesheet" href="CSS\n.css">
+    </head>
+
+    <body>
+        <nav>
+            <ul class ="topnav-left" id = "dropdownclick">
+                <li> <a href ="#home"> HOME</a></li>
+                <li> <a href ="#news">NEWS</a></li>
+                <li> <a href ="#contact">CONTACT</a></li>
+                <li> <a href ="#about">ABOUT</a></li>
+                <li class = "topnav-right"><a href ="#signin">SIGN IN</a></li>
+                <li class = "topnav-right"> <a href ="#signup">SIGN UP</a></li>
+                <li class = dropdownMenu><a herf=" javascript: void(0);"onclick = "dropdownMenu()" >&#9776; </a></li>
+            </ul>
+        </nav>
+        <div class = "container" id="section-1-gradient">
+            <div class ="row"></div>
+
+        </div>
+        <script>
+            function dropdownMenu()
+            { var x = document.getElementById("dropdownclick");
+if(x.className==="topnav-left")
+{
+    x.className += " responsive";
+}
+   
+else{
+    x.classname ="topnav-left";
+}}
+
+        </script>
+    </body>
+</html>

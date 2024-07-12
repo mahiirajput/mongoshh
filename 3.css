@@ -1,0 +1,52 @@
+html{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    background-color: blueviolet;
+    font-size: 20px;
+  
+}
+body{
+    background-color: cadetblue;
+    text-align: center;
+   
+}
+
+/*.div{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: chocolate;
+}*/
+/*h1,h2,h4,p1,p1 {
+    font-style: italic;
+    line-height: 1rem;
+   color: rgb(226, 214, 43); 
+    
+}
+h4{
+    color:darkgreen;
+    font-size: 30px;
+    font-style: normal;
+
+}*/
+h4{
+    color:darkgreen;
+    font-size: 30px;
+    font-style: normal;
+font-family: 'Dancing_Script';
+}
+
+    h2{
+        color:darkgreen;
+        font-size: 30px;
+        font-style: normal;}
+.formatting{
+    line-height: 2em;
+    font-size: 20px;
+    color:aqua;
+    font-weight: 100;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: brown;
+    word-spacing: 20px;
+    text-transform: lowercase;
+}
