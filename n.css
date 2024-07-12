@@ -1,0 +1,131 @@
+/*##############DEFAULTS##################  */
+nav,
+header,
+footer{
+    display : block;
+}
+body{
+    line-height: 1;
+    margin: 0;
+
+}
+.container
+{
+width: 100%;
+margin : auto;
+padding-top: 4%;
+padding-bottom: 4%;
+}
+.row
+{
+    width : 100%;
+     display: flex;   /*add to flex when size get changes */
+     flex-wrap: wrap;
+     align-items : center;
+}
+.row::after
+{
+display: table;
+clear:both;
+content:"";
+}
+.col-1{  width: 8.33%};
+.col-2{  width: 16.66%};
+.col-3{  width: 25%};
+.col-4{  width: 33.33%};
+.col-5{  width: 41.66%};
+.col-6{  width: 50%};
+.col-7{  width: 58.33%};
+.col-8{  width: 66.66%};
+.col-9{  width: 75%};
+.col-10{  width: 83.33%};
+.col-11{  width: 91.66%};
+.col-12{  width: 100%};
+/* #######NAVBAR######## */
+nav{
+    width: 100%;
+    margin :0;
+}
+nav ul
+{
+    background-color: rgb(202, 206, 192);
+    overflow: hidden; 
+    margin :0;
+    padding:0;
+    
+    
+}
+ul.topnav-left li
+{
+list-style: none;
+float:left;
+}
+/* ul.topnav-right li
+{
+float: right;
+} */
+
+ul.topnav-left li.topnav-right{ 
+    float:right;
+    /* transition: cubic-bezier(0.215, 0.610, 0.355, 1); */
+}
+ul.topnav-left li a{
+    display: block;
+    text-decoration: none;
+    min-height: 19px;
+    text-align: center;
+    padding:14px;
+    color :rgb(13, 27, 122);
+
+
+}
+ul.topnav-left li a:hover{
+    background-color:rgb(212, 157, 157);
+    color:black;
+}
+ul.topnav-left li.dropdownMenu
+{display: none;
+}
+/* cuatome style */
+#section-1-gradient
+{
+    /* background:red; */
+    /* background: -webkit-linear-gradient(red,yellow); 
+    background: -o-linear-gradient(red,yellow);
+    background:-moz-linear-gradient(red,yellow); */
+    background: linear-gradient(rgb(78, 91, 123),rgb(137, 153, 149));
+
+
+}
+/* ####mobile##### */
+@media screen and (max-width :680px)
+{
+ul.topnav-left li:not(:nth-child(1))
+{
+     display:none;
+}
+ul.topnav-left li.dropdownMenu
+{
+    display: block;
+    float : right;
+}
+ul.topnav-left.responsive li.dropdownIcon {
+    position:absolute;
+    top: 0;
+    right :0;
+
+  }
+ul.topnav-left.responsive{
+    position: relative;
+}
+ul.topnav-left.responsive li{
+
+    display:inline;
+    float:none;
+}
+ul.topnav-left.responsive li a 
+{
+    display:block;
+    text-align: left;
+}
+}

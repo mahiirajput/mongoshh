@@ -1,0 +1,18 @@
+.container
+{
+    background: linear-gradient( to right,
+
+    #003399 ,#b3ccff);
+     box-shadow: 4px 4px 3px pink;
+}
+
+h1{
+    color : #cccccc
+    text-shadow : 4px 4px 4px skyblue;
+ }
+ 
+h2
+{
+    color : rgb(123 ,210 , 255)
+text-shadow : 3px 3px 4px pink;
+}

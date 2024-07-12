@@ -1,0 +1,24 @@
+ h1 {
+    color :aqua;
+    text-align:center;
+
+ }
+ h2 
+ { 
+color :blue;
+}
+body{
+    background-color: #cc99ff ;
+}
+.square
+    {
+        width: 100px;
+         height:100px;
+         background-color: black;
+         margin:auto;
+}
+#circle{
+    color :forestgreen;
+    font-size : 40px; 
+    
+}

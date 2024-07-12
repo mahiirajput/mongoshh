@@ -1,0 +1,40 @@
+body 
+{
+  background-image: url(zebra\ 2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+h3{
+  color:bisque;
+}
+h3,h4{
+  color: blueviolet;
+  font-size: medium;
+  font-style: oblique;
+  text-shadow: 7px 7px  brown;
+line-height: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*h3{
+  color:bisque;
+}*/
+.container
+{
+  color:whitesmoke;
+
+}
+.borderImg
+{
+  border: 5px solid green
+ }
+ ul li
+ {
+color: brown;
+font-size: 20px;
+ }
+ ul > li
+ { color:cadetblue;
+  font-size: 25px 10px ;
+
+ }
